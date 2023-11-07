@@ -40,7 +40,7 @@ public class ProductServiceImpl implements ProductService {
 
         Product product = new Product();
         product.setName(productDto.getName());
-        product.setPrice(product.getPrice());
+        product.setPrice(productDto.getPrice());
         product.setStock(productDto.getStock());
 
         Product savedProduct = this.productRepository.save(product);
