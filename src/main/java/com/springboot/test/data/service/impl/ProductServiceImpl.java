@@ -1,6 +1,5 @@
 package com.springboot.test.data.service.impl;
 
-import com.springboot.test.data.dao.ProductDao;
 import com.springboot.test.data.dto.ProductDto;
 import com.springboot.test.data.dto.ProductResponseDto;
 import com.springboot.test.data.entity.Product;
@@ -9,10 +8,7 @@ import com.springboot.test.data.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.time.LocalDateTime;
 
 @Service
 @RequiredArgsConstructor
