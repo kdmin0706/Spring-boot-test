@@ -49,9 +49,9 @@ class ProductRepositoryTest {
                 = this.productRepository.findById(savedProduct.getNumber()).get();
 
         //then
-        assertEquals(product.getName(), savedProduct.getName());
-        assertEquals(product.getPrice(), savedProduct.getPrice());
-        assertEquals(product.getStock(), savedProduct.getStock());
+        assertEquals(foundProduct.getName(), savedProduct.getName());
+        assertEquals(foundProduct.getPrice(), savedProduct.getPrice());
+        assertEquals(foundProduct.getStock(), savedProduct.getStock());
 
     }
 }
